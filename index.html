@@ -10,22 +10,22 @@ body {
 margin: 0;
 padding: 0;
 height: 100%;
-background-color: #CCC;
+background-color: #000;
 }
 .container {
-background-color: #ffe;
+background-color: #000;
 }
 .container-header {
 padding-top: 15px;
 font-size: 16px;
 font-weight: bold;
+color: #CCC;
 padding-left: 3%;
 }
 .container-body {
 display: flex;
-border-bottom: 7px solid #ccc;
-padding: 1% 1% 0 1%;
-/*justify-content: space-between;*/
+border-bottom: 3px solid #CCC;
+padding: 1% 1% 1% 2%;
 flex-direction: row;
 flex-wrap: wrap;
 }
@@ -33,21 +33,21 @@ flex-wrap: wrap;
 display: flex;
 }
 .item-block {
-border: 2px solid #ccc;
+border: 2px solid #CCC;
 flex-direction: column;
 height: 90px;
-width: 200px;
+width: 170px;
 margin-bottom: 10px;
 margin-right: 1%;
 }
 a:link {
 /* 超链接正常状态下的样式 */
-color: #00f;
+color: #FFF;
 text-decoration: none;
 }
 a:visited {
 /* 访问过的超链接 */
-color: #009;
+color: #CCC;
 text-decoration: none;
 }
 .item-top {
@@ -60,12 +60,11 @@ flex-direction: column;
 width: 100%;
 }
 .item-bottom {
-height: 40px;
-justify-content: space-around;
-align-items: center;
-color: #888888;
-background-color: #F7F7F7;
+background-color: #000;
 font-size: 13px;
+ color: #CCC;
+align-items: center;
+text-align:center;
 }
 .title {
 font-size: 20px;
@@ -74,29 +73,31 @@ padding-bottom: 10px;
 }
 .notice {
 font-size: 14px;
-color: #888;
+color: #CCC;
 }
 .divider {
 height: 20px;
 width: 3px;
-background-color: #dfdfdf;
+background-color: #CCC;
 }
 </style>
 </head>
+
 <body style="padding: 1%">
 <div class="container">
-<div class="container-header">01 工作导航-内网</div>
+<div class="container-header">01 工作内网导航</div>
 <div class="container-body">
 <div class="item-block">
 <a href="https://sp.sokon.com" target="_blank">
 <div class="item-top">
 <div class="item-body">
 <span class="title">赛力斯协作门户</span>
-<span class="notice">这才是公司主页<br>工号+开机密码</span>
+<span class="notice">公司主页<br>工号+开机密码</span>
 </div>
 </div>
 </a>
 </div>
+
 <div class="item-block">
 <a href="https://oa.sokon.com" target="_blank">
 <div class="item-top">
@@ -107,6 +108,7 @@ background-color: #dfdfdf;
 </div>
 </a>
 </div>
+
 <div class="item-block">
 <a href="https://performancemanager15.sapsf.cn/" target="_blank">
 <div class="item-top">
@@ -117,6 +119,7 @@ background-color: #dfdfdf;
 </div>
 </a>
 </div>
+
 <div class="item-block">
 <a href="https://pan.sokon.com/index.html#doc/team" target="_blank">
 <div class="item-top">
@@ -127,11 +130,7 @@ background-color: #dfdfdf;
 </div>
 </a>
 </div>
-</div>
-</div>
-<div class="container">
-<div class="container-header">02 学习导航</div>
-<div class="container-body">
+
 <div class="item-block">
 <a href="https://seres.yunxuetang.cn/main/#/index" target="_blank">
 <div class="item-top">
@@ -144,8 +143,9 @@ background-color: #dfdfdf;
 </div>
 </div>
 </div>
+
 <div class="container">
-<div class="container-header">03 访客导航</div>
+<div class="container-header">02 外网导航</div>
 <div class="container-body">
 <div class="item-block">
 <a href="https://portal.seres.cn:8445/PortalServer/customize/1652151383636/pc/auth.jsp?" target="_blank">
@@ -157,7 +157,34 @@ background-color: #dfdfdf;
 </div>
 </a>
 </div>
+
+<div class="item-block">
+<a href="https://whx84.github.io/" target="_blank">
+<div class="item-top">
+<div class="item-body">
+<span class="title">我的上网首页</span>
+<span class="notice">我的上网首页</span>
+</div>
+</div>
+</a>
+</div>
+
+<div class="item-block">
+<a href="https://go.itab.link/" target="_blank">
+<div class="item-top">
+<div class="item-body">
+<span class="title">ITab</span>
+<span class="notice">自定义上网首页</span>
+</div>
+</div>
+</a>
+</div>
 </div>
 </div>
 </body>
+
+<bottom style="padding: 1%">
+<div class="item-bottom">吴化新    20231016</div>
+</div>
+
 </html>
